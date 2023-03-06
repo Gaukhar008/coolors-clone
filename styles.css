@@ -11,16 +11,15 @@ body {
 }
 
 .col {
-    border: 1px solid black;
     flex: 1;
     display: flex;
-    background: darkred;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
 .col h2 {
+    border-radius: 10px;
     padding: 10px;
     color: #fff;
     padding: 10px;
@@ -35,6 +34,7 @@ body {
 .col button {
     padding: 10px;
     border: none;
+    border-radius: 10px;
     padding: 10px;
     background: transparent;
     font-size: 1.5rem;
